@@ -121,6 +121,24 @@
 
     .nav-links a:hover { color: var(--text); }
 
+    .btn-resume {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(34,211,238,0.1);
+      border: 1px solid rgba(34,211,238,0.3);
+      color: var(--cyan);
+      text-decoration: none;
+      padding: 6px 14px;
+      border-radius: 8px;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      transition: background 0.2s, transform 0.15s;
+    }
+
+    .btn-resume:hover { background: rgba(34,211,238,0.18); transform: translateY(-1px); }
+
     /* ── HERO ── */
     #hero {
       padding-top: 140px;
@@ -672,6 +690,7 @@
         <li><a href="#skills">Skills</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
+      <a href="Chabi-Anand-Resume.pdf" download class="btn-resume">⬇ Resume</a>
     </div>
   </nav>
 
@@ -691,6 +710,9 @@
       <div class="hero-cta">
         <a href="mailto:chabianand31@gmail.com" class="btn-primary">
           ✉ Get in Touch
+        </a>
+        <a href="Chabi-Anand-Resume.pdf" download class="btn-secondary">
+          ⬇ Download Resume
         </a>
         <a href="https://linkedin.com/in/chabi-anand-51b84162/" target="_blank" class="btn-secondary">
           in LinkedIn
